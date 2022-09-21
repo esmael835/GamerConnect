@@ -3,10 +3,20 @@ package edu.msudenver.gamerconnect.manageaccount
 import android.accounts.AbstractAccountAuthenticator
 import android.accounts.Account
 import android.accounts.AccountAuthenticatorResponse
+import android.accounts.AccountManager
 import android.content.Context
 import android.os.Bundle
 
+/**
+ * This class is to CRUD/Authenticate accounts
+ *
+ **/
+
 class Authenticator(context: Context?) :  AbstractAccountAuthenticator(context){
+
+    val am: AccountManager = AccountManager.get(context)
+    val options = Bundle()
+
     override fun editProperties(
         response: AccountAuthenticatorResponse?,
         accountType: String?
