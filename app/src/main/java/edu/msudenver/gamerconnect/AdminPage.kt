@@ -1,4 +1,4 @@
 package edu.msudenver.gamerconnect
 
-class CreateAccount {
+class AdminPage {
 }
