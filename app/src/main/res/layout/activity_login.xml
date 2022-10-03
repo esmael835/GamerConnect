@@ -8,6 +8,10 @@
     android:padding="4dp"
     tools:context=".ProfileActivity">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3868dd6d72487aedd6f74dd94839bef9e95af067
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,6 +19,7 @@
         android:text="Welcome to Gamer Connect! Please Login!"
         />
 
+<<<<<<< HEAD
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,6 +27,8 @@
         android:text="Don't Have an Account? Click on 'Create Account'! "
         />
 
+=======
+>>>>>>> 3868dd6d72487aedd6f74dd94839bef9e95af067
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -77,6 +84,7 @@
             android:text="Login"
             />
 
+<<<<<<< HEAD
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -84,6 +92,8 @@
             android:id="@+id/createButton"
             />
 
+=======
+>>>>>>> 3868dd6d72487aedd6f74dd94839bef9e95af067
     </LinearLayout>
 
 </LinearLayout>
