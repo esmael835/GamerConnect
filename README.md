@@ -14,9 +14,13 @@ Ensure that the "Do not import settings" button is checked and click "ok"
 From our GitHub repository...
 link: https://github.com/Gamer-Connect/GamerConnect/tree/main
 
+
+
 Locate the green "Code" button, click for the drop-down menu and select "Download ZIP".
 
 After downloading the ZIP file package.  Then up-zip the file package.
+
+
 
 Now from within Android Studio, click the "File" drop-down menu, then select "Open".
 
@@ -25,6 +29,8 @@ A pop-up will appear, navigate to the location of the file package you un-zipped
 At this point you will be able to test the project in its most current state.
 
 Navigate to "app" -> "res" -> "layout" -> "activity_main.xml"
+
+
 
 Towards the top of the screen will be a green triangular play button, press this.
 
